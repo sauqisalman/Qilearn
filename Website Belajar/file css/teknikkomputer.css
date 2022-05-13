@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../foto/email-pattern.png);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    padding: 5px;
+    font-family: hack;
+    border-top: 2px dashed;
+    border-bottom: 2px dashed;
+}
+
+h2 {
+    text-align: center;
+}
+
+h2 a:hover {
+    color: blue;
+}
+
+table {
+    margin: auto;
+    margin-bottom: 20px;
+    font-family: roboto;
+}
+
+.frame-box {
+    display: block;
+    margin: auto;
+    border: 2px solid;
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+.amin, .aan {
+    width: 150px;
+    height: 100px;
+    background-color: cornflowerblue;
+    border: 2px solid;
+    border-radius: 25%;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    font-family: roboto;
+}
+
+.materibengkel {
+    display: flex;
+    justify-content: space-around;
+}
+
+.artikel {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px auto;
+    font-family: roboto;
+    box-sizing: border-box;
+}
+
+.munculnya-komputer {
+    width: 600px;
+    padding: 5px;
+    background-color: rgb(252, 79, 79, .5);
+    text-align: center;
+    border-radius: 20px;
+}
+
+.lahirnya-bahasa {
+    padding: 5px;
+    background-color: rgb(255, 159, 69, .5);
+    text-align: center;
+    border-radius: 20px;
+    width: 600px;
+}
+
+@media (max-width : 400px){
+    .artikel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .frame-box {
+        display: block;
+        margin: auto;
+        border: 2px solid;
+        margin-bottom: 50px;
+        width: 350px;
+        height: 250px;
+    }
+    .munculnya-komputer {
+        width: 350px;
+    }
+    .lahirnya-bahasa {
+        width: 350px;
+        margin-top: 20px;
+    }
+}
+

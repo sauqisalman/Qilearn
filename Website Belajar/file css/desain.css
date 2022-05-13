@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding : 0;
+  background-image: url(../foto/connectwork.png);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1, h2 {
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-family: hack;
+  padding: 5px;
+  border-top: 2px dashed white;
+  border-bottom: 2px dashed white;
+}
+
+a:hover {
+  color: blue;
+}
+
+iframe {
+  width: 1000px;
+  height: 500px;
+  display: block;
+  margin: 20px auto;
+}
+
+@media (max-width : 400px){
+  iframe {
+    width: 350px;
+    height: 300px;
+  }
+}

@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../foto/email-pattern.png);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  text-align: center;
+  padding: 5px;
+  font-family: hack;
+  border-top: 2px dashed;
+  border-bottom: 2px dashed;
+}
+
+h2 {
+  text-align: center;
+}
+
+h2 a:hover {
+  color: blue;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+table {
+  text-align: center;
+  margin: 20px auto;
+}
+
+iframe {
+  display: block;
+  margin: 10px auto;
+}
+
+.tombolatas {
+  width: 100px;
+  height: 20px;
+  border: 2px solid;
+  text-align: center;
+  line-height: 20px;
+  position: fixed;
+  right: 30px;
+  top: 540px;
+}
+
+@media (max-width : 400px){
+  iframe {
+    width: 350px;
+    height: 300px;
+  }
+  .tombolatas {
+    display: none;
+  }
+}

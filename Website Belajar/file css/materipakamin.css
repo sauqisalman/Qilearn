@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../foto/email-pattern.png);
+}
+
+h1 {
+    text-align: center;
+    padding: 5px;
+    font-family: hack;
+    border-top: 2px dashed;
+    border-bottom: 2px dashed;
+}
+
+h2 {
+    text-align: center;
+}
+
+h2 a:hover {
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+iframe 
+{
+    display: block;
+    margin: 10px auto;
+}
+

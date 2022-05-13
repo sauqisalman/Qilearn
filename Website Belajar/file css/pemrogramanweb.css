@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../foto/eight_horns.png);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h1 {
+  font-family: hack;
+  padding: 5px;
+  border-top: 2px dashed;
+  border-bottom: 2px dashed;
+}
+
+a:hover {
+  color: blue;
+}
+
+.gambar {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+iframe {
+  display: block;
+  margin: 20px auto;
+  width: 1000px;
+  height: 500px;
+}
+
+@media (max-width: 400px) {
+  iframe {
+    width: 350px;
+    height: 300px;
+  }
+  .gambar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

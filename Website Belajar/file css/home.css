@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+* {
+  user-select: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../foto/elegant.jpg);
+  background-size: cover;
+}
+
+.s1 {
+  color: #357C3C;
+}
+.s2 {
+  color: #EF6D6D;
+}
+
+.container {
+  /* width: 85%; */
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  padding: 0 0;
+  font-family: hack;
+  animation-name: jalan;
+  animation-duration: 2s;
+}
+
+h2 {
+  text-align: center;
+  /* padding-top: 20px; */
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: cambria;
+}
+
+span {
+  cursor: default;
+}
+
+.btn a {
+  display: block;
+  width: 300px;
+  height: 40px;
+  background-color: #F9D923;
+  border-radius: 10px;
+  margin: 20px auto;
+  text-align: center;
+  line-height: 40px;
+  font-family: Montserrat;
+  font-weight: bold;
+  color: #F32424;
+  animation: jalan 1s ;
+}
+.bck a {
+  display: block;
+  width: 100px;
+  height: 40px;
+  background-color: #F9D923;
+  border-radius: 10px;
+  margin: 20px auto;
+  text-align: center;
+  line-height: 40px;
+  font-family: Montserrat;
+  font-weight: bold;
+  color: #F32424;
+  animation: jalan 1s ;
+}
+
+.bck a:hover {
+  background-color: #ccad00;
+  color: #F2F2F2;
+}
+
+.btn a:hover {
+  background-color: #ccad00;
+  color: #F2F2F2;
+}
+
+@keyframes jalan {
+  from {
+    transform: translateX(400px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes jalan2 {
+  from {
+    transform: translateX(-400px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@media (max-width : 400px){
+  body {
+    background-image: url(../foto/maroon.jpg);
+  }
+  table {
+    background-color: rgb(0, 0, 0, .5);
+    color: white;
+  }
+  table a {
+    color: white;
+  }
+  h2 {
+    display: none;
+  }
+  .s1 {
+    color: #F8B400;
+  }
+  .s2 {
+    color: #FCD900;
+  }
+}
+

@@ -1,0 +1,35 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../foto/tictac.png);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h1 {
+  font-family: hack;
+  padding: 5px;
+  border-top: 2px dashed;
+  border-bottom: 2px dashed;
+}
+
+a:hover {
+  color: blue;
+}
+
+img {
+  display: block;
+  margin: 10px auto;
+}
