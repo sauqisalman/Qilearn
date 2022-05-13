@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+* {
+  user-select: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(earthdesktop.jpg);
+  background-position: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.masuk {
+  text-decoration: none;
+  font-family: Poppins;
+  margin-top: 50px;
+  width: 120px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  color: #fcfd86;
+  border: 4px solid #fcfd86;
+}
+
+.masuk:hover {
+  animation-name: sentuh;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+h1 {
+  font-family: Radio Canada;
+  color: #fcfd86;
+  letter-spacing: 5px;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+P {
+  color: #fcfd86;
+  font-family: Fjalla One;
+  display: none;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.back {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+.back:hover {
+  animation: tombol-back 1s forwards;
+}
+
+@keyframes sentuh {
+  from {
+    box-shadow: inset 0 0 0  #fcfd86;
+  }
+  to {
+    box-shadow: inset 200px 0 0  #fcfd86;
+    color: black;
+  }
+}
+
+@keyframes appear {
+  from {
+    transform: translateY(500px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes tombol-back {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-5px);
+  }
+}
+
+@media (max-width : 400px){
+  body {
+    background-image: url(bumi.jpg);
+    background-size: cover;
+  }
+  p {
+    display: flex;
+    margin-top: 380px;
+    opacity: .2;
+    font-weight: bold;
+  }
+  .back:hover {
+    animation: none;
+  }
+}
