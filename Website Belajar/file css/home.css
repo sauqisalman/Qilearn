@@ -7,8 +7,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url(../foto/elegant.jpg);
-  background-size: cover;
+  background: linear-gradient(to right, #2F8F9D, #1cb5e0);
 }
 
 .s1 {
