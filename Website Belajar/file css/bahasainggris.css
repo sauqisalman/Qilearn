@@ -105,6 +105,7 @@ iframe {
 
 .tenses {
   padding-top: 10px;
+  font-family: koulen;
 }
 
 .pidato {
@@ -118,6 +119,25 @@ iframe {
   padding: 5px;
   box-sizing: border-box;
   padding-bottom: 10px;
+}
+
+.btn {
+  padding-top: 5px;
+}
+
+.btn a {
+  display: block;
+  width: 180px;
+  height: 30px;
+  line-height: 30px ;
+  border: 3px solid #0dc8fc;
+  text-align: center;
+  font-family: koulen;
+  border-radius: 5px;
+  color: #0dc8fc;
+  text-decoration: none;
+  position: relative;
+  margin: auto;
 }
 
 @media (max-width : 400px){
