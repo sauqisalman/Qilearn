@@ -107,3 +107,10 @@ h1 {
   font-family: koulen;
   text-transform: uppercase;
 }
+
+@media {
+  iframe {
+    width: 340px;
+    height: 600px;
+  }
+}
