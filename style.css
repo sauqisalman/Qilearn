@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #5F7161;
+}
+
+a {
+  display: block;
+  width: 100px;
+  height: 200px;
+  text-decoration: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  text-transform: uppercase;
+  background-color: #6D8B74;
+  text-align: center;
+  line-height: 200px;
+  font-family: koulen;
+  color: white;
+  font-size: 30px;
+  box-shadow: 5px 5px  rgb(0, 0, 0, .5);
+}
+
+a:hover {
+  animation: zoom 1s forwards;
+}
+
+div {
+  
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1.3);
+  }
+}
