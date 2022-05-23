@@ -1,70 +1,114 @@
-body {
-  background-image: url(../foto/skulls.png);
-}
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
 
 html {
   scroll-behavior: smooth;
+  user-select: none;
 }
 
-h1 {
-  text-align: center;
-  padding: 5px;
-  font-family: hack;
-  border-top: 2px dashed;
-  border-bottom: 2px dashed;
+::-webkit-scrollbar {
+  width: 1px;
 }
 
-h2 {
-  text-align: center;
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(../foto/school.png);
 }
 
-h2 a {
+.nav {
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+}
+
+.judul {
+  width: 100%;
+  height: 60px;
+  background-color: white;
+}
+
+.judul span {
+  font-family: Koulen;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  margin-left: 20px;
+  color: #0dc8fc;
+}
+
+.nav-btn {
+  width: 100%;
+  height: 40px;
+  background-color: #0dc8fc;
+}
+
+.nav-btn a {
+  float: left;
   text-decoration: none;
-  color: black;
+  color: white;
+  line-height: 40px;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-left: 15px;
 }
 
-h2 a:hover {
-  color: rgba(0, 0, 255, 0.692);
+.nav-btn span {
+  float: right;
+  line-height: 40px;
+  color: white;
+  text-transform: uppercase;
+  font-family: Koulen;
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 2px;
 }
 
-table {
+.materi {
+  width: 90%;
+  margin: 110px auto 0 auto;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer {
+  width: 100%;
+  height: 20px;
+  background-color: rgb(39, 36, 36);
   text-align: center;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  opacity: .6;
+}
+
+footer span {
+  text-transform: uppercase;
+  font-family: arial;
+  line-height: 20px;
+  font-size: 15px;
+  color: white;
 }
 
 iframe {
+  width: 1000px;
+  height: 500px;
   display: block;
-  margin: auto;
+  margin: 20px auto;
 }
 
-table a {
-  text-decoration: none;
-  color: black;
-}
-
-.tombol {
-  position: fixed;
-  right: 50px;
-  top: 550px;
-}
-
-.tombol h3 {
-  width: 80px;
-  height: 30px;
-  border: 2px dashed black;
-  text-align: center;
-  line-height: 30px;
-}
-
-.tombol a {
-  text-decoration: none;
-  color: black;
+h2 {
+  font-family: koulen;
 }
 
 @media (max-width : 400px){
   iframe {
-    width: 350px;
+    width: 330px;
     height: 300px;
   }
 }
-
