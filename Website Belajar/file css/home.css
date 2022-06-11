@@ -63,7 +63,10 @@ span {
   line-height: 40px;
   font-family: Montserrat;
   font-weight: bold;
-  color: #F32424;
+/*   color: #F32424; */
+  text-shadow: red -2px 0, cyan 2px o;
+  color: black;
+  letter-spacing: 2px;
   animation: jalan 1s ;
 }
 .bck a {
